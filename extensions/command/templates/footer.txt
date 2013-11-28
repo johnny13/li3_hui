@@ -1,0 +1,2 @@
+<!-- View Footer -->
+<div id="modalBox" class="none"><!-- modal or sub page content --></div>
