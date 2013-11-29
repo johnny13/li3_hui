@@ -1,8 +1,9 @@
 {
     "name": "derek/li3_hui",
     "description": "Lithium ui plugin",
-    "type": "lithium-library",
+    "type": "li3-libraries",
     "version": "dev-master",
+	"homepage": "https://github.com/johnny13/li3_hui",
     "license": "MIT",
     "authors": [
         {
@@ -13,6 +14,8 @@
         }
     ],
     "require": {
+		"php": ">=5.3",
+		"joseym/li3_installer": "master",
         "composer/installers": "*"
     },
     "suggest": {
