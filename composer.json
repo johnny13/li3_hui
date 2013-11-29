@@ -1,14 +1,14 @@
 {
-    "name": "michaelhue/li3_flash_message",
-    "description": "The Flash Message plugin  for Lithium provides a straightforward interface for displaying status messages to the user.",
+    "name": "derek/li3_hui",
+    "description": "Lithium ui plugin",
     "type": "lithium-library",
     "version": "dev-master",
     "license": "MIT",
     "authors": [
         {
-            "name": "Michael Hüneburg",
-            "email": "hello@michaelhue.com",
-            "homepage": "http://michaelhue.com",
+            "name": "Derek",
+            "email": "derek@Huement.com",
+            "homepage": "http://huement.com",
             "role": "Developer"
         }
     ],
