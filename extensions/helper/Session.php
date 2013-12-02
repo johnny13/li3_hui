@@ -1,6 +1,6 @@
 <?php
 
-namespace app\extensions\helper;
+namespace li3_hui\extensions\helper;
 
 class Session extends \lithium\template\Helper {
 

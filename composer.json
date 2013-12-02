@@ -1,6 +1,7 @@
 {
     "name": "derek/li3_hui",
     "description": "Lithium ui plugin",
+	"keywords": ["lithium", "li3", "huement", "hui", "li3-hui", "css", "jQuery"],
     "type": "li3-libraries",
     "version": "dev-master",
 	"homepage": "https://github.com/johnny13/li3_hui",
@@ -15,11 +16,14 @@
     ],
     "require": {
 		"php": ">=5.3",
-		"joseym/li3_installer": "master",
-        "composer/installers": "*"
+		"composer/installers": "*",
+		"joseym/li3_installer": "master"
     },
     "suggest": {
         "UnionOfRAD/lithium": "Lithium is required for this plugin."
     },
+	"support": {
+	    "issues": "https://github.com/johnny13/hui/issues"
+	},
     "minimum-stability": "dev"
 }

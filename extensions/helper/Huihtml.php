@@ -1,36 +1,9 @@
 <?php
 
-namespace app\extensions\helper;
+namespace li3_hui\extensions\helper;
 
 class huihtml extends \lithium\template\Helper {
-	
-	public function button($title=null,$gclass=null,$icon=null,$group=null){
-		//Group, or custom class.
-		if($gclass!=null){
-			if($group==null){
-				$btnHtml = "<button class='".$gclass."'>";
-			} else {
-				$btnHtml = "<button class='".$group." ".$gclass."'>";
-			}
-		} else {
-			if($group!=null){
-				$btnHtml = "<button class='".$group."'>";
-			} else {
-			$btnHtml = "<button>";
-			}
-		}
-		//Icon?
-		if($icon!=null){
-			$btnHtml .= '<span class="icon '.$icon.'"></span>';
-		}
-		
-			$buttonStart = $btnHtml . '<span class="label">'.$title."</span>";
-			
-		$buttonEnd = '</button>';
-		
-		return $buttonStart.$buttonEnd;
-	}
-	
+
 	public function flapperGirl($linksarray,$ladyarray){
 		//$ladyparts = array("title"=>".title_bar","loader"=>".pageloader","stage"=>".speakEasy");
 		if(!isset($ladyarray)){
